@@ -1,0 +1,13 @@
+# Codex project-wide settings for this repo.
+#
+# NOTE: Codex TOML agent files (.codex/agents/*.toml) do not support variable
+# interpolation. Each agent pins its own `model = "..."`. When bumping to a
+# new Codex model, update the pins in all files listed under `pinned_in`
+# atomically, or use the helper script: `scripts/bump-codex-model.sh`.
+
+[agents]
+max_threads = 6
+max_depth = 1
+
+[features]
+hooks = true

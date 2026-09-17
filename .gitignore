@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.claude/settings.local.json
+tmp/
+
+# Artefactos generados (no versionados)
+_pet_runs/
+codegraph-out/
